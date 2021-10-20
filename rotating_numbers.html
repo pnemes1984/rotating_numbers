@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="rotating_numbers.css">
+        <script src="rotating_numbers.js"></script>
+        <title>Number rotator</title>
+    </head>
+    <body>
+        <div id="container">
+            <input type="text" id="input" data-min="0" data-max="9999999999" onkeyup="normalizeNumbers()">
+            <div id="button" onclick="refreshDisplay()">DISPLAY</div>
+        </div>
+        <div id="display"></div>
+    </body>
+</html>
